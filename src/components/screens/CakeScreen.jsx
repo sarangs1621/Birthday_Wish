@@ -50,7 +50,7 @@ export default function CakeScreen({ onNext, onDecorate }) {
       )}
 
       <div className="relative flex flex-col items-center gap-8 mt-52">
-        <div className="scale-[0.75] md:scale-100 origin-top">
+        <div className="scale-[0.6] md:scale-100 origin-top">
           <Cake lit={lit} />
         </div>
         <AnimatePresence mode="wait">
